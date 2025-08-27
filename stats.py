@@ -27,6 +27,4 @@ def sort_char_report(char_counts):
 
     pretty_char_list.sort(reverse=True, key=sort_on)
 
-    print(pretty_char_list)
-
     return pretty_char_list
